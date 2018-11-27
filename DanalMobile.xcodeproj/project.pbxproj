@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49519C521F672ED30094831C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49519C511F672ED30094831C /* AppDelegate.swift */; };
+		49519C571F672ED30094831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49519C551F672ED30094831C /* Main.storyboard */; };
+		49519C591F672ED30094831C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49519C581F672ED30094831C /* Assets.xcassets */; };
+		49519C5C1F672ED30094831C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49519C5A1F672ED30094831C /* LaunchScreen.storyboard */; };
+		49519C671F672ED30094831C /* DanalMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49519C661F672ED30094831C /* DanalMobileTests.swift */; };
+		49519C721F672ED30094831C /* DanalMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49519C711F672ED30094831C /* DanalMobileUITests.swift */; };
+		49E0BA791F674F1300C261E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0BA781F674F1300C261E0 /* LoginViewController.swift */; };
+		49E171801F6B0A97008E99B8 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E1717F1F6B0A97008E99B8 /* AccountTableViewController.swift */; };
+		B582609D21389127001EAA14 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A25AF49212C971C00A45356 /* Security.framework */; };
+		B582609F2139FBF2001EAA14 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582609E2139FBF2001EAA14 /* Graph.swift */; };
+		B58260A12139FBF8001EAA14 /* OverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58260A02139FBF8001EAA14 /* OverviewTableViewController.swift */; };
+		B5B05CBF212DF3A300C35AE6 /* sslfuncs.c in Sources */ = {isa = PBXBuildFile; fileRef = B5B05CBE212DF3A200C35AE6 /* sslfuncs.c */; };
+		B5B05CC2212DF3BB00C35AE6 /* SocketAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B05CC1212DF3BB00C35AE6 /* SocketAddress.m */; };
+		B5B05CC5212DF3C100C35AE6 /* HTTPRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B05CC4212DF3C100C35AE6 /* HTTPRequester.m */; };
+		B5B46D4521ADF5D200FE2851 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5B46D4421ADF5D200FE2851 /* keys.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49519C631F672ED30094831C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49519C461F672ED30094831C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49519C4D1F672ED30094831C;
+			remoteInfo = DanalMobile;
+		};
+		49519C6E1F672ED30094831C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49519C461F672ED30094831C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49519C4D1F672ED30094831C;
+			remoteInfo = DanalMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A25AF49212C971C00A45356 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		49519C4E1F672ED30094831C /* DanalMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanalMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49519C511F672ED30094831C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49519C561F672ED30094831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49519C581F672ED30094831C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49519C5B1F672ED30094831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49519C5D1F672ED30094831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49519C621F672ED30094831C /* DanalMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanalMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49519C661F672ED30094831C /* DanalMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanalMobileTests.swift; sourceTree = "<group>"; };
+		49519C681F672ED30094831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49519C6D1F672ED30094831C /* DanalMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanalMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49519C711F672ED30094831C /* DanalMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanalMobileUITests.swift; sourceTree = "<group>"; };
+		49519C731F672ED30094831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498017A41F6B413200526B50 /* DanalMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DanalMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		49E0BA781F674F1300C261E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		49E1717F1F6B0A97008E99B8 /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		B582609E2139FBF2001EAA14 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		B58260A02139FBF8001EAA14 /* OverviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewTableViewController.swift; sourceTree = "<group>"; };
+		B5B05CBE212DF3A200C35AE6 /* sslfuncs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sslfuncs.c; sourceTree = "<group>"; };
+		B5B05CC0212DF3A700C35AE6 /* SocketAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketAddress.h; sourceTree = "<group>"; };
+		B5B05CC1212DF3BB00C35AE6 /* SocketAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketAddress.m; sourceTree = "<group>"; };
+		B5B05CC3212DF3BE00C35AE6 /* sslfuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sslfuncs.h; sourceTree = "<group>"; };
+		B5B05CC4212DF3C100C35AE6 /* HTTPRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequester.m; sourceTree = "<group>"; };
+		B5B05CC6212DF3C500C35AE6 /* HTTPRequester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPRequester.h; sourceTree = "<group>"; };
+		B5B46D4421ADF5D200FE2851 /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49519C4B1F672ED30094831C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B582609D21389127001EAA14 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49519C5F1F672ED30094831C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49519C6A1F672ED30094831C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A25AF3C212C919900A45356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A25AF49212C971C00A45356 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49519C451F672ED30094831C = {
+			isa = PBXGroup;
+			children = (
+				B5B46D4421ADF5D200FE2851 /* keys.plist */,
+				49519C501F672ED30094831C /* DanalMobile */,
+				49519C651F672ED30094831C /* DanalMobileTests */,
+				49519C701F672ED30094831C /* DanalMobileUITests */,
+				49519C4F1F672ED30094831C /* Products */,
+				1A25AF3C212C919900A45356 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49519C4F1F672ED30094831C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49519C4E1F672ED30094831C /* DanalMobile.app */,
+				49519C621F672ED30094831C /* DanalMobileTests.xctest */,
+				49519C6D1F672ED30094831C /* DanalMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49519C501F672ED30094831C /* DanalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				B582609C2138901C001EAA14 /* NetworkingLogic */,
+				49519C511F672ED30094831C /* AppDelegate.swift */,
+				49E1717F1F6B0A97008E99B8 /* AccountTableViewController.swift */,
+				B582609E2139FBF2001EAA14 /* Graph.swift */,
+				B58260A02139FBF8001EAA14 /* OverviewTableViewController.swift */,
+				49E0BA781F674F1300C261E0 /* LoginViewController.swift */,
+				498017A41F6B413200526B50 /* DanalMobile-Bridging-Header.h */,
+				49519C551F672ED30094831C /* Main.storyboard */,
+				49519C581F672ED30094831C /* Assets.xcassets */,
+				49519C5A1F672ED30094831C /* LaunchScreen.storyboard */,
+				49519C5D1F672ED30094831C /* Info.plist */,
+			);
+			path = DanalMobile;
+			sourceTree = "<group>";
+		};
+		49519C651F672ED30094831C /* DanalMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				49519C661F672ED30094831C /* DanalMobileTests.swift */,
+				49519C681F672ED30094831C /* Info.plist */,
+			);
+			path = DanalMobileTests;
+			sourceTree = "<group>";
+		};
+		49519C701F672ED30094831C /* DanalMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49519C711F672ED30094831C /* DanalMobileUITests.swift */,
+				49519C731F672ED30094831C /* Info.plist */,
+			);
+			path = DanalMobileUITests;
+			sourceTree = "<group>";
+		};
+		B582609C2138901C001EAA14 /* NetworkingLogic */ = {
+			isa = PBXGroup;
+			children = (
+				B5B05CBE212DF3A200C35AE6 /* sslfuncs.c */,
+				B5B05CC0212DF3A700C35AE6 /* SocketAddress.h */,
+				B5B05CC1212DF3BB00C35AE6 /* SocketAddress.m */,
+				B5B05CC3212DF3BE00C35AE6 /* sslfuncs.h */,
+				B5B05CC4212DF3C100C35AE6 /* HTTPRequester.m */,
+				B5B05CC6212DF3C500C35AE6 /* HTTPRequester.h */,
+			);
+			path = NetworkingLogic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49519C4D1F672ED30094831C /* DanalMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49519C761F672ED30094831C /* Build configuration list for PBXNativeTarget "DanalMobile" */;
+			buildPhases = (
+				49519C4A1F672ED30094831C /* Sources */,
+				49519C4B1F672ED30094831C /* Frameworks */,
+				49519C4C1F672ED30094831C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanalMobile;
+			productName = DanalMobile;
+			productReference = 49519C4E1F672ED30094831C /* DanalMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49519C611F672ED30094831C /* DanalMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49519C791F672ED30094831C /* Build configuration list for PBXNativeTarget "DanalMobileTests" */;
+			buildPhases = (
+				49519C5E1F672ED30094831C /* Sources */,
+				49519C5F1F672ED30094831C /* Frameworks */,
+				49519C601F672ED30094831C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49519C641F672ED30094831C /* PBXTargetDependency */,
+			);
+			name = DanalMobileTests;
+			productName = DanalMobileTests;
+			productReference = 49519C621F672ED30094831C /* DanalMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49519C6C1F672ED30094831C /* DanalMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49519C7C1F672ED30094831C /* Build configuration list for PBXNativeTarget "DanalMobileUITests" */;
+			buildPhases = (
+				49519C691F672ED30094831C /* Sources */,
+				49519C6A1F672ED30094831C /* Frameworks */,
+				49519C6B1F672ED30094831C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49519C6F1F672ED30094831C /* PBXTargetDependency */,
+			);
+			name = DanalMobileUITests;
+			productName = DanalMobileUITests;
+			productReference = 49519C6D1F672ED30094831C /* DanalMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49519C461F672ED30094831C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Danal, Inc.";
+				TargetAttributes = {
+					49519C4D1F672ED30094831C = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					49519C611F672ED30094831C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49519C4D1F672ED30094831C;
+					};
+					49519C6C1F672ED30094831C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49519C4D1F672ED30094831C;
+					};
+				};
+			};
+			buildConfigurationList = 49519C491F672ED30094831C /* Build configuration list for PBXProject "DanalMobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49519C451F672ED30094831C;
+			productRefGroup = 49519C4F1F672ED30094831C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49519C4D1F672ED30094831C /* DanalMobile */,
+				49519C611F672ED30094831C /* DanalMobileTests */,
+				49519C6C1F672ED30094831C /* DanalMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49519C4C1F672ED30094831C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B46D4521ADF5D200FE2851 /* keys.plist in Resources */,
+				49519C5C1F672ED30094831C /* LaunchScreen.storyboard in Resources */,
+				49519C591F672ED30094831C /* Assets.xcassets in Resources */,
+				49519C571F672ED30094831C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49519C601F672ED30094831C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49519C6B1F672ED30094831C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49519C4A1F672ED30094831C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B05CC5212DF3C100C35AE6 /* HTTPRequester.m in Sources */,
+				B5B05CC2212DF3BB00C35AE6 /* SocketAddress.m in Sources */,
+				B582609F2139FBF2001EAA14 /* Graph.swift in Sources */,
+				B5B05CBF212DF3A300C35AE6 /* sslfuncs.c in Sources */,
+				49E171801F6B0A97008E99B8 /* AccountTableViewController.swift in Sources */,
+				49E0BA791F674F1300C261E0 /* LoginViewController.swift in Sources */,
+				B58260A12139FBF8001EAA14 /* OverviewTableViewController.swift in Sources */,
+				49519C521F672ED30094831C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49519C5E1F672ED30094831C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49519C671F672ED30094831C /* DanalMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49519C691F672ED30094831C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49519C721F672ED30094831C /* DanalMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49519C641F672ED30094831C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49519C4D1F672ED30094831C /* DanalMobile */;
+			targetProxy = 49519C631F672ED30094831C /* PBXContainerItemProxy */;
+		};
+		49519C6F1F672ED30094831C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49519C4D1F672ED30094831C /* DanalMobile */;
+			targetProxy = 49519C6E1F672ED30094831C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49519C551F672ED30094831C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49519C561F672ED30094831C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49519C5A1F672ED30094831C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49519C5B1F672ED30094831C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49519C741F672ED30094831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49519C751F672ED30094831C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49519C771F672ED30094831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN55ZAWR54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DanalMobile",
+				);
+				INFOPLIST_FILE = DanalMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanalMobile88888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DanalMobile/DanalMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49519C781F672ED30094831C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN55ZAWR54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DanalMobile",
+				);
+				INFOPLIST_FILE = DanalMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DanalMobile88888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DanalMobile/DanalMobile-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49519C7A1F672ED30094831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65687D248Y;
+				INFOPLIST_FILE = DanalMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danalinc.DanalMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanalMobile.app/DanalMobile";
+			};
+			name = Debug;
+		};
+		49519C7B1F672ED30094831C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65687D248Y;
+				INFOPLIST_FILE = DanalMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danalinc.DanalMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanalMobile.app/DanalMobile";
+			};
+			name = Release;
+		};
+		49519C7D1F672ED30094831C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65687D248Y;
+				INFOPLIST_FILE = DanalMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danalinc.DanalMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanalMobile;
+			};
+			name = Debug;
+		};
+		49519C7E1F672ED30094831C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65687D248Y;
+				INFOPLIST_FILE = DanalMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danalinc.DanalMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanalMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49519C491F672ED30094831C /* Build configuration list for PBXProject "DanalMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49519C741F672ED30094831C /* Debug */,
+				49519C751F672ED30094831C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49519C761F672ED30094831C /* Build configuration list for PBXNativeTarget "DanalMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49519C771F672ED30094831C /* Debug */,
+				49519C781F672ED30094831C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49519C791F672ED30094831C /* Build configuration list for PBXNativeTarget "DanalMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49519C7A1F672ED30094831C /* Debug */,
+				49519C7B1F672ED30094831C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49519C7C1F672ED30094831C /* Build configuration list for PBXNativeTarget "DanalMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49519C7D1F672ED30094831C /* Debug */,
+				49519C7E1F672ED30094831C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49519C461F672ED30094831C /* Project object */;
+}
